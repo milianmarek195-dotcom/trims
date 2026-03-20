@@ -10,7 +10,8 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
       - run: mvn clean package -DskipTests
+        working-directory: ArmorTrimPlugin/ArmorTrimPlugin
       - uses: actions/upload-artifact@v3
         with:
           name: ArmorTrimPlugin
-          path: target/*.jar
+          path: ArmorTrimPlugin/ArmorTrimPlugin/target/*.jar
