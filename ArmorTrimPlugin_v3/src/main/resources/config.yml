@@ -1,0 +1,128 @@
+# ============================================
+#   ArmorTrimPlugin v3.0 - Konfiguration
+# ============================================
+
+# Rang-Hierarchie: default < vip < mod < admin < owner
+
+trim-permissions:
+  SENTRY: default
+  DUNE: default
+  COAST: default
+  WILD: default
+  WARD: default
+  EYE: default
+  VEX: vip
+  TIDE: vip
+  SNOUT: vip
+  RIB: vip
+  SPIRE: mod
+  WAYFINDER: mod
+  SHAPER: mod
+  RAISER: mod
+  HOST: mod
+  SILENCE: mod
+  FLOW: admin
+  BOLT: admin
+
+material-permissions:
+  AMETHYST: default
+  COPPER: default
+  DIAMOND: default
+  EMERALD: default
+  GOLD: default
+  IRON: default
+  LAPIS: default
+  QUARTZ: default
+  REDSTONE: default
+  NETHERITE: vip
+  RESIN: mod
+
+leather-color-permission: default
+
+# ============================================
+#  LEDER-FARBEN KONFIGURATION
+#  Hier kannst du eigene Preset-Farben definieren!
+#  Format: Name: "R,G,B"
+#  Rang: Welcher Rang wird benötigt (default/vip/mod/admin/owner)
+# ============================================
+leather-colors:
+  Vanilla-Braun:
+    rgb: "160,101,64"
+    rank: default
+    dye: BROWN_DYE
+  Rot:
+    rgb: "178,35,35"
+    rank: default
+    dye: RED_DYE
+  Orange:
+    rgb: "216,127,51"
+    rank: default
+    dye: ORANGE_DYE
+  Gelb:
+    rgb: "229,229,51"
+    rank: default
+    dye: YELLOW_DYE
+  Grün:
+    rgb: "102,127,51"
+    rank: default
+    dye: LIME_DYE
+  Hellblau:
+    rgb: "74,198,189"
+    rank: default
+    dye: LIGHT_BLUE_DYE
+  Blau:
+    rgb: "51,76,178"
+    rank: default
+    dye: BLUE_DYE
+  Lila:
+    rgb: "127,63,178"
+    rank: default
+    dye: PURPLE_DYE
+  Pink:
+    rgb: "242,127,165"
+    rank: default
+    dye: PINK_DYE
+  Weiß:
+    rgb: "255,255,255"
+    rank: default
+    dye: WHITE_DYE
+  Grau:
+    rgb: "76,76,76"
+    rank: default
+    dye: GRAY_DYE
+  Schwarz:
+    rgb: "25,25,25"
+    rank: default
+    dye: BLACK_DYE
+  Gold:
+    rgb: "255,215,0"
+    rank: vip
+    dye: GOLD_INGOT
+  Türkis:
+    rgb: "0,255,200"
+    rank: vip
+    dye: CYAN_DYE
+  Silber:
+    rgb: "192,192,192"
+    rank: mod
+    dye: IRON_INGOT
+  Neon-Grün:
+    rgb: "57,255,20"
+    rank: mod
+    dye: LIME_DYE
+  Neon-Pink:
+    rgb: "255,20,147"
+    rank: admin
+    dye: MAGENTA_DYE
+  Regenbogen-Rot:
+    rgb: "255,0,0"
+    rank: admin
+    dye: FIREWORK_STAR
+  Owner-Schwarz:
+    rgb: "0,0,0"
+    rank: owner
+    dye: INK_SAC
+  Owner-Gold:
+    rgb: "255,200,0"
+    rank: owner
+    dye: NETHER_STAR
