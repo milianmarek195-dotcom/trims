@@ -1,0 +1,37 @@
+name: ArmorTrimPlugin
+version: '2.0.0'
+main: de.armortrim.plugin.ArmorTrimPlugin
+api-version: '1.21'
+description: Armor Trim & Leather Color GUI with rank-based permissions
+authors: [YourName]
+softdepend:
+  - LuckPerms
+
+commands:
+  trims:
+    description: Öffnet das Armor-Customizer Menü
+    usage: /trims
+    permission: armortrim.use
+
+permissions:
+  armortrim.use:
+    description: Darf /trims benutzen
+    default: true
+  armortrim.rank.vip:
+    description: VIP-Rang
+    default: false
+  armortrim.rank.mod:
+    description: Mod-Rang
+    default: false
+  armortrim.rank.admin:
+    description: Admin-Rang
+    default: false
+  armortrim.rank.owner:
+    description: Owner-Rang
+    default: false
+  armortrim.bypass:
+    description: Umgeht alle Rang-Beschränkungen
+    default: op
+  armortrim.admin:
+    description: Admin-Befehle für das Plugin
+    default: op
