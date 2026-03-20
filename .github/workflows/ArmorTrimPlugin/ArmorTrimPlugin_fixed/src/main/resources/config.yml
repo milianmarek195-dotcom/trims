@@ -1,0 +1,46 @@
+# ============================================
+#   ArmorTrimPlugin v2.0 - Konfiguration
+# ============================================
+
+# Rang-Hierarchie: default < vip < mod < admin < owner
+# Trage hier ein, welchen Rang ein Trim/Material braucht.
+
+trim-permissions:
+  # --- Default (alle) ---
+  SENTRY: default
+  DUNE: default
+  COAST: default
+  WILD: default
+  WARD: default
+  EYE: default
+  # --- VIP ---
+  VEX: vip
+  TIDE: vip
+  SNOUT: vip
+  RIB: vip
+  # --- Mod ---
+  SPIRE: mod
+  WAYFINDER: mod
+  SHAPER: mod
+  RAISER: mod
+  HOST: mod
+  SILENCE: mod
+  # --- Admin ---
+  FLOW: admin
+  BOLT: admin
+
+material-permissions:
+  AMETHYST: default
+  COPPER: default
+  DIAMOND: default
+  EMERALD: default
+  GOLD: default
+  IRON: default
+  LAPIS: default
+  QUARTZ: default
+  REDSTONE: default
+  NETHERITE: vip
+  RESIN: mod
+
+# Leder-Farben Rang-Anforderung
+leather-color-permission: default
